@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.descuentos {
+    background: #1CD1B0;
+}
+
+.descuentos p {
+    padding: 10px 20px;
+    font-size: 15px;
+}
+
+.heroes {
+    border: 1px solid rgba(0, 0, 0, 0.00);
+    background: #00669F;
+    box-shadow: 0px 10px 7px 0px rgba(0, 0, 0, 0.25);
+}
+
+h1 {
+    font-size: 40px;
+    font-style: normal;
+    margin: 20px;
+}
+
+.container {
+    text-align: center;
+}
+
+.card {
+    display: inline-block;
+    border-radius: 16px 16px 0px 0px;
+    margin: 50px 1%;
+    position: relative;
+    height: 529px;
+    width: 300px;
+    background: #F3F3F3;
+    text-align: center;
+    box-shadow: 0px 5px 2px rgb(215, 215, 215);
+}
+
+.fondo {
+    position: relative;
+}
+
+.imagen-fondo {
+    width: 100%;
+}
+
+.corazon {
+    position: absolute;
+    top: 8px;
+    left: 15px;
+    width: 30px;
+    height: 30px;
+}
+
+.posicion-avatar {
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    top: 126px;
+}
+
+.avatar {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    box-shadow: 0px 5px 5px rgb(159, 159, 159);
+}
+
+h2 {
+    margin-top: 70px;
+}
+
+.descripcion {
+    font-size: 16px;
+    padding: 15px 15px 45px;
+    text-align: left;
+    color: #333;
+}
+
+.boton {
+    background: #00669F;
+    border: none;
+    color: #F3F3F3;
+    font-size: 15px;
+    padding: 12px 32px; 
+    text-align: center;
+    text-decoration: none;
+}
+
+.footer {
+    background: #00669F;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.footer p {
+    font-size: 16px;
+    padding: 15px 20px;
+    color: #FFF9F9;
+}
